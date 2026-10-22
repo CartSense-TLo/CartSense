@@ -67,7 +67,22 @@ margin-bottom:60px;
 font-size:2.5rem;
 margin-bottom:10px;
 }
+.screenshots{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
 
+.screenshots img{
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+transition:.3s;
+}
+
+.screenshots img:hover{
+transform:translateY(-4px);
+}
 .features{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
@@ -230,7 +245,32 @@ See where your grocery money goes and reduce overspending.
 </div>
 
 </section>
+<section>
 
+<div class="container">
+
+<div class="section-title">
+<h2>See CartSense In Action</h2>
+<p>
+Designed for busy households who want to stay organized and on budget.
+</p>
+</div>
+
+<div class="screenshots">
+
+<img src="Home screen.png" alt="Home Dashboard">
+<img src="Household.png" alt="Household">
+<img src="Shopping list.png" alt="Shopping List">
+<img src="Pantry.png" alt="Pantry">
+<img src="Recipes.png" alt="Recipes">
+<img src="Budget.png" alt="Budget">
+<img src="Eating out.png" alt="Eating Out">
+
+</div>
+
+</div>
+
+</section>
 <section class="highlight">
 
 <div class="container">
